@@ -1,13 +1,6 @@
 # Nat-OSPF-ACL
 Ospf,Nat,ACL project
 Introduction
-
-You are completing the configuration of the Corporation One network.
-
-You are not required to configure host addressing.
-
-You will practice and be assessed on the following skills:
-
 =    Configuration of OSPFv2 routing
 
 =    Customization of OSPF.
@@ -30,11 +23,10 @@ Step 1:      Activate OSPF.
 
 Use process ID 10 for OSPF activation on all routers.
 
-a.     Activate OSPF by configuring the interfaces of the network devices in the Satellite network, where required.
+a.     Activate OSPF by configuring the interfaces of the network devices in the Satellite network, where required. used by exit interface
 
-b.     Activate OSPF using network statements and inverse masks on the routers in the Corporate network.
+b.     Activate OSPF using network statements and inverse masks on the routers in the Corporate network. use by wild card
 
-Note: For the purposes of this assessment, please enter the network statements in the following order:
 
 1)     On RTR-D
 
